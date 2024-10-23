@@ -5,7 +5,7 @@ zero = 0 #счетчик нулевых
 number = [random.randint(-50, 50) for i in range(25)] #создает список
 print("список: ", number) #выводится список
 for i in number: #счет пол отр и нул элементов
-    if i > 0:
+    if i > 0: #если больше нуля то к счетчику +1
         pol += 1
     elif i < 0:
         otr += 1
